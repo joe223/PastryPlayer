@@ -9,6 +9,8 @@
   `Enter` for fullscreen<br>
   `backspace` for play & pause
 
+
+
 ### code
 * html
 ```html
@@ -107,3 +109,6 @@
 ```javascirpt
   var pastryPlayer = new EasyPlayer({'playerId':'easyPlayer2'});
 ```
+
+### configure
+  [PastryUI](https://github.com/joe223/MyGradutionProject/tree/master/Website/public/scss)
