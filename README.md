@@ -1,4 +1,5 @@
-![screenshot](http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png) If this picture is not complete，please look over here： [http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png](http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png)
+![screenshot](http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png)
+<br>If this picture is not complete，please look over here： [http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png](http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png)
 
 ## PastryPlayerScreenShot
   A HTML5 player based on `canvas` and `video`.
