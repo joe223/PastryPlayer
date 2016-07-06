@@ -1,4 +1,4 @@
-![screenshot](http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png)
+![screenshot](./PastryPlayerScreenShot.png)
 <br>If this picture is not complete，please look over here： [http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png](http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png)
 
 ## PastryPlayerScreenShot
