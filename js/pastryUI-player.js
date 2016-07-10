@@ -1,7 +1,7 @@
 "use strict"
 /**
  * @ignore =====================================================
- * @fileoverview easy-player
+ * @fileoverview pastry-player
  * @author       joe
  * @version      0.1.0
  * @ignore =====================================================
