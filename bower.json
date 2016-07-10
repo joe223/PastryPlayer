@@ -1,0 +1,10 @@
+{
+  "name": "pastry-player",
+  "description": "a html5 player based on canvas",
+  "main": "index.js",
+  "authors": [
+    "joe223"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/joe223/PastryPlayer"
+}
