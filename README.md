@@ -2,14 +2,15 @@
 <br>If this picture is not complete，please look over here： [http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png](http://7xrnuo.com1.z0.glb.clouddn.com/PastryPlayerScreenShot.png)
 
 ## PastryPlayer3
-  A HTML5 player based on `canvas` and `video`.
-  More configurability.
+    A HTML5 player based on `canvas` and `video`.
+    More configurability.
 
 ## useage
-  `left` & `right` for progress<br>
-  `up` & `down` for volume<br>
-  `Enter` for fullscreen<br>
-  `backspace` for play & pause
+    install:`bower install pastry-player`<br>
+    `left` & `right` for progress<br>
+    `up` & `down` for volume<br>
+    `Enter` for fullscreen<br>
+    `backspace` for play & pause
 
 
 ### code
