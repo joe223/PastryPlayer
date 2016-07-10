@@ -69,14 +69,10 @@ ProgressDragBtn.prototype = {
             this.progressUsed.style.width = this.currentProgress;
             if(this.dragBtn.getAttribute("style")) {
                 this.dragBtn.style.transform = "translate3d(" + this.currentProgress + "px,0,0)"; // 不能在属性里加入分号
-                // this.dragBtn.style.transform = "translate3d(" + this.currentProgress + "px,0,0)";
             }else{
                 this.dragBtn.setAttribute("style","transform:translate3d(" + this.currentProgress + "px,0,0);");
             }
-            // this.dragBtn.style.display = "none";
-            // console.log(this.dragBtn.style.transform);
             this.progressUsed.style.width = this.currentProgress + 6 + "px";
-            // this.VIDEO.setProgress(this.getProgressPercent());
         }else{
             console.error("设置进度时请输入数值(>0)");
         }
@@ -117,8 +113,6 @@ VideoProgressDragBtn.prototype.init = function() {
             left = left > _this_.parWidth ? _this_.parWidth : left;
             used.style.width = left + 6 + "px";
             _this.style.transform = "translate3d(" + left + "px,0,0)";
-            // parent.setAttribute("data-progress" , left / _this_.parWidth);
-
         };
 
         // 鼠标松开时销毁事件监听
@@ -202,10 +196,7 @@ VideoProgressDragBtn.prototype.init = function() {
                  this.currentProgress = p * this.parWidth;
                  this.progressPercent = parseFloat(p.toFixed(2));
              }else{      // 像素宽度
-                //  p = p > this.parWidth ? this.parWidth : p;
-                //  this.currentProgress = p;
                  this.currentProgress = this.parWidth;
-                //  this.progressPercent = parseFloat((p / this.parWidth).toFixed(2));
                  this.progressPercent = 1;
              }
              this.VIDEO.setVolume(p);
@@ -213,7 +204,6 @@ VideoProgressDragBtn.prototype.init = function() {
              this.progressUsed.style.width = this.currentProgress;
              if(this.dragBtn.getAttribute("style")) {
                  this.dragBtn.style.transform = "translate3d(" + this.currentProgress + "px,0,0)"; // 不能在属性里加入分号
-                 // this.dragBtn.style.transform = "translate3d(" + this.currentProgress + "px,0,0)";
              }else{
                  this.dragBtn.setAttribute("style","transform:translate3d(" + this.currentProgress + "px,0,0);");
              }
@@ -228,10 +218,8 @@ VideoProgressDragBtn.prototype.init = function() {
              }else {
                  this.volumeBtn.getElementsByTagName("i")[0].setAttribute("class","fa     fa-volume-up")
              }
-
              this.progressUsed.style.width = this.currentProgress + 6 + "px";
          }else{
-            //  console.error("设置进度时请输入数值(>=0)");
             this.VIDEO.setVolume(0);
          }
      },
@@ -269,10 +257,8 @@ VideoProgressDragBtn.prototype.init = function() {
              let left = initleft + moveX;
              left = left < 0 ? 0 : left;
              left = left > _this_.parWidth ? _this_.parWidth : left;
-            //  left += 10;
              used.style.width = left + 6 + "px";
              _this.style.transform = "translate3d(" + left + "px,0,0)";
-             // parent.setAttribute("data-progress" , left / _this_.parWidth);
 
          };
 
@@ -317,7 +303,6 @@ let EasyPlayerVideo = function (config) {
     this.player = document.getElementById(config.playerId); // 整个视频控件元素
     this.video = this.player.getElementsByClassName("ep-video")[0];
     this.bufferbar = this.player.getElementsByClassName("progressBarBuffered")[0];
-    // this.bufferedColor = "#ff0000";
     this.progress = null;
     this.volume = null;
     this.init();
@@ -374,9 +359,7 @@ EasyPlayerVideo.prototype = {
             width = endX - startX;
             ctx.fillStyle = "#4D5559";
             ctx.fillRect(startX,0,width,6);
-            // console.log("startX:"+startX+",width:"+width);
         }
-        // console.log("_this.video.buffered.length:"+_this.video.buffered.length);
     },
 
     /**
