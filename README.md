@@ -4,7 +4,7 @@
 ## PastryPlayerScreenShot
   A HTML5 player based on `canvas` and `video`.
 
-## useage
+## usage
   `left` & `right` for progress<br>
   `up` & `down` for volume<br>
   `Enter` for fullscreen<br>
